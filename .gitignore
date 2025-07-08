@@ -1,10 +1,12 @@
-.vscode/
-.venv311/
-.venv312/
-pretrained_models/
+*.csv
 *.wav
 *.mp3
 *.tar.gz
 *.zip
 *.png
 *.sh
+.vscode/
+.venv311/
+.venv312/
+pretrained_models/
+plots/
