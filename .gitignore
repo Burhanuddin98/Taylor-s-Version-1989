@@ -1,0 +1,10 @@
+.vscode/
+.venv311/
+.venv312/
+pretrained_models/
+*.wav
+*.mp3
+*.tar.gz
+*.zip
+*.png
+*.sh
