@@ -18,8 +18,8 @@ from matplotlib import colors
 # 1.  Config knobs
 # ──────────────────────────────────────────────────────────────────────────────
 ROOT       = Path(__file__).parent
-AUDIO_DIR  = ROOT / "audio"
-OUT_CSV    = ROOT / "album_features.csv"
+AUDIO_DIR  = ROOT / "1989 (Taylor's Version)"
+OUT_CSV    = ROOT / "1989_album_features.csv"
 
 SR         = 11_025      # down-sample to speed up ← set 22_050 if you want HD
 CLIP_SEC   = 30          # analyse only the middle 30 s  (set 0 for full track)
