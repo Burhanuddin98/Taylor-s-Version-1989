@@ -25,7 +25,11 @@ except ImportError:
 # Paths
 ROOT = Path(__file__).parent
 AUDIO_DIR = ROOT / "downsampled"
-CSV_FILE = ROOT / "features" / "1989_album_features.csv"
+if not Path("features/1989_album_features.csv").exists():
+    st.error("❌ features/1989_album_features.csv not found! Is it in your GitHub repo?")
+    st.stop()
+else:
+    CSV_FILE = Path("features/1989_album_features.csv")
 
 # Load dataset
 df = pd.read_csv(CSV_FILE)
