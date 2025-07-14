@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+plotly
+librosa
+matplotlib
+umap-learn
+scikit-learn
+xgboost
+hdbscan
+seaborn
